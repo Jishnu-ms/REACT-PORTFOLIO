@@ -1,0 +1,128 @@
+/* General body styling */
+body {
+    margin: 0;
+    font-family: "Audiowide", sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+  }
+  
+  /* Header styling */
+  .top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+  }
+  
+  .h1 {
+    margin: 0;
+    font-size: 24px;
+  }
+  
+  .menu-toggle {
+    font-size: 24px;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .nav-links {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+  }
+  
+  .nav-links a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Main section styling */
+  .main {
+    padding: 20px;
+  }
+  
+  .sec {
+    text-align: center;
+  }
+  
+  .first {
+    margin-bottom: 20px;
+  }
+  
+  .info {
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .image {
+    border-radius: 10px;
+    margin-top: 10px;
+  }
+  
+  .info_2 {
+    font-size: 18px;
+  }
+  
+  .name {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .about-me p {
+    line-height: 1.6;
+    margin: 10px 0;
+  }
+  
+  .but {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .but:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Footer styling */
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 30px;
+  }
+  
+  footer a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Responsive styling */
+  @media (max-width: 768px) {
+    .nav-links {
+      flex-direction: column;
+      display: none;
+    }
+  
+    .nav-links.active {
+      display: flex;
+    }
+  }
+  
+
