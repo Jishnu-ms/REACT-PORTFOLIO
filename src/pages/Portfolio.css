@@ -1,0 +1,96 @@
+/* Portfolio Page Styles */
+
+
+.container {
+    
+    margin-top: 20px;
+  }
+  
+  .tile {
+    margin-top: 30px;
+    cursor: pointer;
+    background-color: #f8f9fa;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    overflow: hidden;
+    max-width: 100%; /* Prevent oversized tiles */
+  }
+  
+  .tile:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .tile img {
+    width: 200px; /* Responsive image */
+    height: 150px; /* Reduce height for compact look */
+    object-fit: cover; /* Maintain aspect ratio */
+    border-radius: 8px;
+  }
+  
+  .tile .tt {
+    font-size: 16px; /* Smaller title */
+    font-weight: bold;
+    margin: 10px 0 5px 0;
+  }
+  
+  /* Adjust column spacing and layout for different screen sizes */
+  
+  
+  .col-md-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Popup Styles */
+  .popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 1000;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .popup-content {
+    background: white;
+    width: 90%;
+    max-width: 600px;
+    padding: 20px;
+    border-radius: 10px;
+    position: relative;
+  }
+  
+  .popup-content iframe {
+    width: 100%;
+    height: 400px;
+  }
+  
+  .close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  /* Responsive Adjustments */
+  @media (max-width: 768px) {
+    .tile img {
+      height: 120px; /* Smaller image for mobile screens */
+    }
+  
+    .tile .tt {
+      font-size: 14px; /* Adjust title font size */
+    }
+  }
+  
