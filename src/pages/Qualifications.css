@@ -1,0 +1,79 @@
+/* General body styling */
+.bb {
+     /* Light grey background */
+    font-family: Arial, sans-serif;
+    color: #333; /* Text color */
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Section title */
+  .info {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #ffffff; /* Bootstrap blue */
+    margin-bottom: 20px;
+  }
+  
+  /* Tile container */
+  .tile2 {
+    background-color: #ffffff; /* White background */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .tile2:hover {
+    transform: translateY(-5px); /* Lift effect */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Stronger shadow */
+  }
+  
+  /* Tile heading */
+  .tile2 .tt {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #343a40; /* Dark grey */
+    margin-bottom: 15px;
+  }
+  
+  /* Paragraphs inside tiles */
+  .tile2 p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #555; /* Medium grey */
+    margin-bottom: 15px;
+  }
+  
+  /* Images inside tiles */
+  .tile2 img {
+    width: 100%; /* Full width */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+  
+  /* Center align links */
+  .tile2 a {
+    text-decoration: none;
+    color: #007bff; /* Bootstrap blue */
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  .tile2 a:hover {
+    color: #0056b3; /* Darker blue */
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .info {
+      font-size: 2rem;
+    }
+  
+    .tile2 {
+      padding: 15px;
+    }
+  }
+  

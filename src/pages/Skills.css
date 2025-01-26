@@ -1,0 +1,41 @@
+/* General styles */
+body {
+ 
+  
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+
+  
+  /* Header */
+
+  
+  /* Skill card */
+  .skill-card {
+    padding: 50px;
+    height: 200px;
+    width: 300px;
+    background: #fff;
+    border-radius: 10px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    cursor: pointer;
+  }
+  
+  .skill-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .skill-image {
+    max-height: 120px;
+  }
+  
+
+  .dis{
+    font-size: 2rem;
+    font-weight: bold;
+    color: #ffffff; /* Bootstrap blue */
+    margin-bottom: 15px;
+  }

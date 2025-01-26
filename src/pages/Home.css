@@ -1,0 +1,120 @@
+/* Home.css */
+.home {
+    font-family: 'Arial', sans-serif;
+    color: #fff;  /* Set text color to white for better contrast */
+    padding: 20px;
+     /* Dark grey background for the whole page */
+    text-align: center;
+  }
+  
+  /* Main Section */
+  .main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #444; /* Dark grey background for the content section */
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* Slightly darker shadow for better visibility */
+    text-align: center;
+  }
+  
+  /* About Section */
+  .sec {
+    padding-bottom: 30px;
+  }
+  
+  /* First Section - About Me */
+  .first {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Profile Image */
+  .first .image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 6px solid #fff;
+    margin-bottom: 20px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+  }
+  
+  .first .image:hover {
+    transform: scale(1.1);
+  }
+  
+  .first .info {
+    font-size: 1.8em;
+    font-weight: bold;
+    color: #fff;
+    margin-top: 10px;
+  }
+  
+  .first .name {
+    font-size: 50em;
+    font-weight: bold;
+    color: #fff;  /* Make the name white to contrast with dark background */
+    margin-bottom: 20px;
+  }
+  
+  .first .info_2 {
+    font-size: 1.2em;
+    color: #ccc;  /* Light grey color for the secondary text */
+    margin-bottom: 15px;
+  }
+  
+  /* About Me Section */
+  .about-me {
+    text-align: center;
+    font-size: 1.2em;
+    color: #ddd;  /* Lighter grey for the about-me text */
+    line-height: 1.8;
+    margin-top: 30px;
+  }
+  
+  .about-me p {
+    margin-bottom: 15px;
+  }
+  
+  /* Contact Button */
+  .but {
+    background-color:#0d6efd;
+    color: white;
+    padding: 12px 24px;
+    font-size: 1.1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .but:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Mobile Responsiveness */
+  @media screen and (max-width: 768px) {
+    .main {
+      padding: 20px;
+    }
+  
+    .first {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .about-me {
+      font-size: 1em;
+      text-align: center;
+    }
+  
+    .but {
+      width: 100%;
+      padding: 12px;
+    }
+  }
+  

@@ -7,6 +7,7 @@
   }
   
   .tile {
+    height: 300px;
     margin-top: 30px;
     cursor: pointer;
     background-color: #f8f9fa;
@@ -15,7 +16,7 @@
     padding: 10px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     overflow: hidden;
-    max-width: 100%; /* Prevent oversized tiles */
+    width: 300px; /* Prevent oversized tiles */
   }
   
   .tile:hover {
@@ -31,6 +32,7 @@
   }
   
   .tile .tt {
+    color: black;
     font-size: 16px; /* Smaller title */
     font-weight: bold;
     margin: 10px 0 5px 0;

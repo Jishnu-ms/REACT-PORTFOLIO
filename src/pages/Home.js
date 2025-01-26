@@ -1,10 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "./styles.css"; // Create a shared stylesheet for common styles
+import "./Home.css"
 import Layout from "../components/Layout";
 const Home = () => {
   return (
     <Layout>
+       <div style={{ height: '50px',}}>
+  
+  </div>
     <div className="home">
       <div className="main">
         <section className="sec">
@@ -12,7 +15,7 @@ const Home = () => {
             <h2 className="info">About Me</h2>
             <img
               className="image"
-              src="https://media.licdn.com/dms/image/v2/D5603AQGHodjXzzpZbw/profile-displayphoto-shrink_400_400/0/1724867366567?e=1735776000&v=beta&t=SGZ2Lr8-GN7DZk0lkEQpdfd8b4duvjVADm8tUSXHjhQ"
+              src="https://media.licdn.com/dms/image/v2/D5603AQGHodjXzzpZbw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1724867366574?e=1743638400&v=beta&t=v3hXKMQNt0Ok8X1oyjgevYxBPHAk_rwiABijMEFjOKE"
               alt="Description of image"
               width="200"
               height="150"
@@ -55,7 +58,6 @@ const Home = () => {
           </section>
         </section>
       </div>
-      
     </div>
     </Layout>
   );

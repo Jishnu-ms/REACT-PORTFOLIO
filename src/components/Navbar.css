@@ -3,8 +3,8 @@
     display: flex;
     justify-content: space-between; /* Space between the title and nav */
     align-items: center;
-    background-color: #333;
-    color: white;
+    background-color: #333336;
+    color: #f4f4f4;
     padding: 10px 20px;
     position: relative; /* Allows precise positioning of children */
   height: 100px;
@@ -40,7 +40,8 @@
   }
   
   .nav-links a:hover {
-    text-decoration: underline;
+    color: #88888d; /* Slightly lighter gray for hover effect */
+    text-decoration: none !important; /* Ensure no underline on hover */
   }
   
   /* Responsive behavior */

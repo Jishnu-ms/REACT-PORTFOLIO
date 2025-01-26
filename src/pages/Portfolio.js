@@ -12,7 +12,7 @@ const Portfolio = () => {
   return (
     <Layout>
       <div className="portfolio">
-      <div style={{ height: '100px', }}>
+      <div style={{ height: '50px', }}>
   
 </div>
 
@@ -34,6 +34,7 @@ const Portfolio = () => {
                     onClick={() => openPopup("cv/index2.html")}
                   >
                     <h1 className="tt">PORTFOLIO</h1>
+                    <br></br>
                     <img
                       className="car"
                       src="https://codehalweb.com/wp-content/uploads/2023/05/thumbnail-19-741x486.jpg"
@@ -49,6 +50,7 @@ const Portfolio = () => {
                     onClick={() => openPopup("Logi/facebook.html")}
                   >
                     <h1 className="tt">LOGIN PAGE</h1>
+                    <br></br>
                     <img
                       className="car"
                       src="https://codewithfaraz.com/img/login1.png"
@@ -64,6 +66,7 @@ const Portfolio = () => {
                     onClick={() => openPopup("Calculator/calc.html")}
                   >
                     <h1 className="tt">CALCULATOR</h1>
+                    <br></br>
                     <img
                       className="car"
                       src="https://www.inspiruseducation.com/wp-content/uploads/2023/11/Four-function-Calculators.png"
@@ -86,7 +89,7 @@ const Portfolio = () => {
           </section>
         </center>
       </div>
-      <div style={{ height: '100px', }}>
+      <div style={{ height: '50px', }}>
   
   </div>
     </Layout>
