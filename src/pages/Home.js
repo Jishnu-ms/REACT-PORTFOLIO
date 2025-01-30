@@ -9,10 +9,10 @@ const Home = () => {
   
   </div>
     <div className="home">
-      <div className="main">
+      <div className="main" >
         <section className="sec">
-          <div className="first">
-            <h2 className="info">About Me</h2>
+          <div className="first" data-aos="fade-down">
+            <h2 className="info" >About Me</h2>
             <img
               className="image"
               src="https://media.licdn.com/dms/image/v2/D5603AQGHodjXzzpZbw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1724867366574?e=1743638400&v=beta&t=v3hXKMQNt0Ok8X1oyjgevYxBPHAk_rwiABijMEFjOKE"
@@ -26,7 +26,7 @@ const Home = () => {
           <p className="info_2">
             Welcome to my personal website where I share my work and skills.
           </p>
-          <section className="about-me">
+          <section className="about-me" data-aos="fade-up" data-aos-delay="100">
             <p>
               I am currently pursuing a degree in Software Engineering at Kerala
               Technological University, where I have gained knowledge in HTML,

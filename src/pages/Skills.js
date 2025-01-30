@@ -57,7 +57,7 @@ function App() {
   
 </div>
       <header className="header text-center py-3">
-        <h1 className="dis">Skills</h1>
+        <h1 className="dis"  data-aos="fade-down"><b>Skills</b></h1>
         <p className="le">Here are some of my technical skills</p>
       </header>
 

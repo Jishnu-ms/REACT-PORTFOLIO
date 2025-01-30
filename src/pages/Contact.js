@@ -29,11 +29,11 @@ const Contact = () => {
      
     <div className="bb">
       <div className="container my-5">
-        <h1 className="info text-center">Contact Me</h1>
+        <h1 data-aos="fade-down" className="info text-center" ><b>Contact Me</b></h1>
         <p className="text-center">
           Feel free to reach out to me through the form below or connect on my social platforms!
         </p>
-        <div className="row justify-content-center mt-4">
+        <div className="row justify-content-center mt-4" data-aos="fade-up" data-aos-delay="100">
           <div className="col-lg-6 col-md-8">
             <form id="contact-form" onSubmit={handleSubmit} className="shadow p-4 rounded">
               <div className="mb-3">
