@@ -7,6 +7,7 @@
   
   /* Heading styles */
   .info {
+    
     font-size: 2.5rem;
     font-weight: bold;
     color: #ffffff; /* Bootstrap blue */
@@ -15,13 +16,14 @@
   
   /* Form styles */
   form {
-    background-color: #ffffff;
-    border: 1px solid #e0e0e0;
+  
+    background-color:  #444;
+    border: 0px solid #e0e0e0;
     border-radius: 20px;
   }
   
   form .form-label {
-    color: black;
+    color: #ffffff;
     font-weight: 600;
   }
   

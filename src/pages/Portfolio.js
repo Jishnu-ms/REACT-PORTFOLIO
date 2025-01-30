@@ -74,6 +74,51 @@ const Portfolio = () => {
                     />
                   </div>
                 </div>
+
+                <div className="col-md-4 col-12" data-aos="fade-up" data-aos-delay="200">
+                  <div
+                    className="tile text-center"
+                    onClick={() => openPopup("Logi/facebook.html")}
+                  >
+                    <h1 className="tt">SAMPLE</h1>
+                    <br></br>
+                    <img
+                      className="car"
+                      src="https://codewithfaraz.com/img/login1.png"
+                      alt="Login Page Project"
+                    />
+                  </div>
+                </div>
+
+                <div className="col-md-4 col-12" data-aos="fade-up" data-aos-delay="200">
+                  <div
+                    className="tile text-center"
+                    onClick={() => openPopup("Logi/facebook.html")}
+                  >
+                    <h1 className="tt">NETFLIX CLONE</h1>
+                    <br></br>
+                    <img
+                      className="car"
+                      src="https://images.ctfassets.net/4cd45et68cgf/Rx83JoRDMkYNlMC9MKzcB/2b14d5a59fc3937afd3f03191e19502d/Netflix-Symbol.png?w=700&h=456"
+                      alt="Login Page Project"
+                    />
+                  </div>
+                </div>
+
+                <div className="col-md-4 col-12" data-aos="fade-up" data-aos-delay="200">
+                  <div
+                    className="tile text-center"
+                    onClick={() => openPopup("Logi/facebook.html")}
+                  >
+                    <h1 className="tt">TODO APP</h1>
+                    <br></br>
+                    <img
+                      className="car"
+                      src="https://play-lh.googleusercontent.com/92xIZAW-mdwucFX1v8kyTXlLVgZfLczHv8XCVOH1tFc0M3cTRI4q9qJLUM96PqCrgWjc"
+                      alt="Login Page Project"
+                    />
+                  </div>
+                </div>
               </div>
             </div>
 
