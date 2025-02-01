@@ -4,7 +4,7 @@ import { AiFillYoutube, AiFillInstagram } from "react-icons/ai";
 const Footer = () => {
   return (
     <footer className="footer">
-      <p>&copy; 2024 Jishnu_MS. All Rights Reserved.</p>
+      <p>&copy; 2025 Jishnu MS. All Rights Reserved.</p>
       <p>
   Follow me on{" "}
   <a href="https://www.youtube.com/@jishnu3809" target="_blank" rel="noopener noreferrer">

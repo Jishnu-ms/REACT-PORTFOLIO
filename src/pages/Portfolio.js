@@ -126,7 +126,7 @@ const Portfolio = () => {
             <div id="popup" className="popup">
               <div className="popup-content">
                 <button className="close-btn" onClick={closePopup}>
-                  ×
+                ❌
                 </button>
                 <iframe id="popup-iframe" src="" frameBorder="0"></iframe>
               </div>

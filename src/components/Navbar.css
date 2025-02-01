@@ -1,14 +1,17 @@
 /* Navbar container */
 .top {
-    display: flex;
-    justify-content: space-between; /* Space between the title and nav */
-    align-items: center;
-    background-color: #333336;
-    color: #f4f4f4;
-    padding: 10px 20px;
-    position: relative; /* Allows precise positioning of children */
-  height: 100px;
+  display: flex;
+  justify-content: space-between; /* Space between the title and nav */
+  align-items: center;
+  background: linear-gradient(135deg, rgba(51, 51, 54, 0.9), rgba(25, 25, 27, 0.9)); 
+  color: #f4f4f4;
+  padding: 15px 30px;
+  position: relative; /* Allows precise positioning of children */
+  height: 100px; /* Slight rounded edges for a premium look */
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Soft shadow for depth */
+  backdrop-filter: blur(8px); /* Glassmorphism effect */
 }
+
 
   
   /* Title styling */
@@ -26,9 +29,11 @@
     cursor: pointer;
     display: none; /* Hidden by default for larger screens */
   }
+
   
   /* Navigation links */
   .nav-links {
+    transition: all 0.3s ease-in-out;
     display: flex;
     gap: 15px;
   }
@@ -67,3 +72,47 @@
     }
   }
   
+  
+/* Default Navbar */
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(135deg, rgba(51, 51, 54, 0.9), rgba(25, 25, 27, 0.9)); 
+  color: #f4f4f4;
+  padding: 15px 30px;
+  position: relative;
+  height: 100px;
+  
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(5px);
+  transition: all 0.6s ease-in-out; /* Smoother transition */
+}
+
+/* Floating Navbar when Scrolled */
+.top.scrolled {
+  margin-left: 60%;
+  margin-top: 10px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 40%;
+  height: 60px; /* Smaller height */
+  background: rgba(51, 51, 54, 0.7); /* Less transparency for a smoother transition */
+  border-radius: 20px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(10px); /* Increase blur for a better effect */
+  z-index: 1000;
+  transition: all 0.6s ease-in-out; /* Ensures smooth transformation */
+}
+
+/* Adjust text size and spacing when scrolled */
+.top.scrolled .h1 {
+  font-size: 1.4rem;
+  transition: font-size 0.6s ease-in-out;
+}
+
+.top.scrolled .nav-links {
+  transition: opacity 0.6s ease-in-out;
+  opacity: 0.9; /* Prevent abrupt disappearance */
+}

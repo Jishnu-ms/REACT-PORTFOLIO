@@ -6,6 +6,10 @@ body {
     color: #ffffff;
 
   }
+  html {
+    scroll-behavior: smooth;
+  }
+  
   
   /* Header styling */
   .top {

@@ -1,5 +1,5 @@
 .footer {
-    background-color: #333336;
+    background: linear-gradient(135deg, rgba(51, 51, 54, 0.9), rgba(25, 25, 27, 0.9)); 
     color: #f4f4f4;
     text-align: center;
     padding: 10px 0;
@@ -9,10 +9,10 @@
   }
   
 /* Ensuring all link states inside the footer are styled */
-footer a, 
-footer a:visited, 
-footer a:focus, 
-footer a:active {
+  footer a, 
+  footer a:visited, 
+  footer a:focus, 
+  footer a:active {
   color: #f4f4f4 !important; /* Off-white color for all states, using !important to enforce styling */
   text-decoration: none; /* Removes underline */
 }

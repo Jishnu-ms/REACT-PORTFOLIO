@@ -17,7 +17,7 @@
   /* Form styles */
   form {
   
-    background-color:  #444;
+    background: linear-gradient(135deg, rgba(51, 51, 54, 0.9), rgba(25, 25, 27, 0.9)); 
     border: 0px solid #e0e0e0;
     border-radius: 20px;
   }
