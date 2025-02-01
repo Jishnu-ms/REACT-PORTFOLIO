@@ -37,7 +37,7 @@ const Portfolio = () => {
                     <br></br>
                     <img
                       className="car"
-                      src="https://codehalweb.com/wp-content/uploads/2023/05/thumbnail-19-741x486.jpg"
+                      src="/pictures/portfolio.png"
                       alt="Portfolio Project"
                     />
                   </div>
@@ -53,7 +53,7 @@ const Portfolio = () => {
                     <br></br>
                     <img
                       className="car"
-                      src="https://codewithfaraz.com/img/login1.png"
+                      src="/pictures/login.png"
                       alt="Login Page Project"
                     />
                   </div>
@@ -69,7 +69,7 @@ const Portfolio = () => {
                     <br></br>
                     <img
                       className="car"
-                      src="https://www.inspiruseducation.com/wp-content/uploads/2023/11/Four-function-Calculators.png"
+                      src="/pictures/calculator.png"
                       alt="Calculator Project"
                     />
                   </div>
@@ -99,7 +99,7 @@ const Portfolio = () => {
                     <br></br>
                     <img
                       className="car"
-                      src="https://images.ctfassets.net/4cd45et68cgf/Rx83JoRDMkYNlMC9MKzcB/2b14d5a59fc3937afd3f03191e19502d/Netflix-Symbol.png?w=700&h=456"
+                      src="/pictures/netflix.jpg"
                       alt="Login Page Project"
                     />
                   </div>
@@ -114,7 +114,7 @@ const Portfolio = () => {
                     <br></br>
                     <img
                       className="car"
-                      src="https://play-lh.googleusercontent.com/92xIZAW-mdwucFX1v8kyTXlLVgZfLczHv8XCVOH1tFc0M3cTRI4q9qJLUM96PqCrgWjc"
+                      src="/pictures/todo.png"
                       alt="Login Page Project"
                     />
                   </div>

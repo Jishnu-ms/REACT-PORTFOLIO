@@ -2,6 +2,8 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./Home.css"
 import Layout from "../components/Layout";
+
+
 const Home = () => {
   return (
     <Layout>
@@ -13,10 +15,9 @@ const Home = () => {
         <section className="sec">
           <div className="first" data-aos="fade-down">
             <h2 className="info" >About Me</h2>
-            <img
-              className="image"
-              src="https://media.licdn.com/dms/image/v2/D5603AQGHodjXzzpZbw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1724867366574?e=1743638400&v=beta&t=v3hXKMQNt0Ok8X1oyjgevYxBPHAk_rwiABijMEFjOKE"
-              alt="Description of image"
+            <img className="image" src="/pictures/jishnu.jpeg" alt="Waste"
+
+
               width="200"
               height="150"
             />

@@ -36,7 +36,7 @@ const Qualifications = () => {
                   </p>
                   <a href="https://en.wikipedia.org/wiki/Coding" target="_blank" rel="noopener noreferrer">
                     <img
-                      src="https://miro.medium.com/v2/resize:fit:1400/0*7VyEZgzwUhQMeBqb"
+                      src="/pictures/coding.jpg"
                       className="card-img-top"
                       alt="Coding Projects"
                     />
@@ -53,7 +53,7 @@ const Qualifications = () => {
                   </p>
                   <a href="https://en.wikipedia.org/wiki/Technology" target="_blank" rel="noopener noreferrer">
                     <img
-                      src="https://tweakyourbiz.com/wp-content/uploads/2022/05/shutterstock_163229387.jpg"
+                     src="/pictures/2.jpg"
                       className="card-img-top"
                       alt="Learning Technologies"
                     />
@@ -71,7 +71,8 @@ const Qualifications = () => {
                   <br />
                   <a href="https://en.wikipedia.org/wiki/Cybersecurity" target="_blank" rel="noopener noreferrer">
                     <img
-                      src="https://blogs.opentext.com/wp-content/uploads/2020/09/shutterstock_1211469496-1000x667-1.jpg"
+                     src="/pictures/cyber.jpg"
+                      
                       className="card-img-top"
                       alt="Cybersecurity"
                     />

@@ -5,7 +5,7 @@ import "./Navbar.css"; // Separate CSS file for Navbar-specific styles
 const Navbar = () => {
   return (
     <header className="top">
-      <h1 className="h1">JISHNU_MS</h1>
+      <h1 className="h1">JISHNU MS</h1>
       <button className="menu-toggle" onClick={toggleMenu}>☰</button>
       <nav id="nav-links" className="nav-links">
         <Link className="txt" to="/">Home</Link>

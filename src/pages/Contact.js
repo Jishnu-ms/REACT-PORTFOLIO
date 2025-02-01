@@ -1,8 +1,9 @@
 import React, { useState } from "react";
 import Layout from "../components/Layout";
 import './Contact.css'
-
-
+import { AiFillLinkedin } from "react-icons/ai"
+import { AiFillGithub } from "react-icons/ai";
+import { MdEmail } from "react-icons/md";
 const Contact = () => {
   const [formData, setFormData] = useState({
     email: "",
@@ -92,29 +93,26 @@ const Contact = () => {
           <div className="col-md-3 col-sm-6 text-center">
             <a
               href="https://www.linkedin.com/in/jishnums830/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img
-                src="https://static.vecteezy.com/system/resources/previews/016/716/470/non_2x/linkedin-icon-free-png.png"
-                alt="LinkedIn"
-                className="img-fluid social-icon"
-              />
+              target="_blank" rel="noopener noreferrer">
+              <AiFillLinkedin size={40} color="#0A66C2" />
             </a>
             <p className="mt-2">LinkedIn</p>
           </div>
+
           <div className="col-md-3 col-sm-6 text-center">
-            <a
-              href="https://github.com/Jishnu-ms"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img
-                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkkUoChNWcIxqfZZb_Z8afzm9UlfX_c06tFA&s"
-                alt="GitHub"
-                className="img-fluid social-icon"
-              />
-            </a>
+    <a href="mailto:jishnums830@gmail.com">
+      <MdEmail size={40} color="#D44638" />
+    </a>
+    <p className="mt-2">Gmail</p>
+  </div>
+
+          <div className="col-md-3 col-sm-6 text-center">
+          <a href="https://github.com/Jishnu-ms"
+          target="_blank"
+          rel="noopener noreferrer"
+>
+  <AiFillGithub size={40} color="black" />
+</a>
             <p className="mt-2">GitHub</p>
           </div>
         </div>
