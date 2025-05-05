@@ -18,7 +18,7 @@ const Home = () => {
             <img className="image" src="/pictures/jishnu.jpeg" alt="Waste"
 
 
-              width="200"
+              width="150"
               height="150"
             />
        
