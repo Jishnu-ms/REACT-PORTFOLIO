@@ -27,7 +27,7 @@ const Home = () => {
           <p className="info_2">
             Welcome to my personal website where I share my work and skills.
           </p>
-          <section className="about-me" data-aos="fade-up" data-aos-delay="100">
+          
             <p>
               I am currently pursuing a degree in Software Engineering at Kerala
               Technological University, where I have gained knowledge in HTML,
@@ -56,7 +56,7 @@ const Home = () => {
             <Link to="/contact">
               <button type="button" className="but">Contact Me</button>
             </Link>
-          </section>
+          
         </section>
       </div>
     </div>
