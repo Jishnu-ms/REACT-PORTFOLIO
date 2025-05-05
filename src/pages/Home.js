@@ -16,10 +16,6 @@ const Home = () => {
           
             <h2 className="info" >About Me</h2>
             <img className="image" src="/pictures/jishnu.jpeg" alt="Waste"
-
-
-              width="150"
-              height="150"
             />
        
           <p className="info_2">Hi, I'm</p>
