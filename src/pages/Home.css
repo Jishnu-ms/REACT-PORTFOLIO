@@ -38,7 +38,7 @@
     height: 200px;
     border-radius: 50%;
     object-fit: cover; 
-    border: 6px solid #fff;
+    
     margin-bottom: 20px;
     object-fit: cover;
     transition: transform 0.3s ease;
