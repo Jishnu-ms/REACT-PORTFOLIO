@@ -15,7 +15,7 @@ const Home = () => {
         <section className="sec">
           
             <h2 className="info" >About Me</h2>
-            <img className="image" src="/pictures/jishnu.jpeg" alt="Waste"
+            <img className="image" src="/pictures/jishu.jpeg" alt="Waste"
             />
        
           <p className="info_2">Hi, I'm</p>
