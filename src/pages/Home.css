@@ -37,7 +37,7 @@
 .first .image {
   width: 150px;               /* Square dimensions for the image */
   height: 150px;              /* Square dimensions for the image */
-  border-radius: 50%;         /* Perfectly round */
+  border-radius: 100%;         /* Perfectly round */
   object-fit: cover;          /* Ensures the image is cropped properly */
   margin-bottom: 20px;        /* Adds space below the image */
   border: 6px solid #fff;     /* Adds a white border around the image */
