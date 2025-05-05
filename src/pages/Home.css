@@ -36,7 +36,8 @@
   .first .image {
     width: 200px;
     height: 200px;
-    border-radius: 70%;
+    border-radius: 50%;
+    object-fit: cover; 
     border: 6px solid #fff;
     margin-bottom: 20px;
     object-fit: cover;
