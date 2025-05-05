@@ -13,7 +13,7 @@ const Home = () => {
     <div className="home">
       <div className="main" >
         <section className="sec">
-          <div className="first" data-aos="fade-down">
+          
             <h2 className="info" >About Me</h2>
             <img className="image" src="/pictures/jishnu.jpeg" alt="Waste"
 
@@ -21,7 +21,7 @@ const Home = () => {
               width="200"
               height="150"
             />
-          </div>
+       
           <p className="info_2">Hi, I'm</p>
           <p className="name"><b>Jishnu MS</b></p>
           <p className="info_2">
