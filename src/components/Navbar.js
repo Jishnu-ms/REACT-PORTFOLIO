@@ -28,6 +28,7 @@ const Navbar = () => {
         <Link className="txt" to="/skills">Skills</Link>
         <Link className="txt" to="/qualifications">Hobbies</Link>
         <Link className="txt" to="/contact">Contact</Link>
+        <Link className="txt" to="/resume">Resume</Link>
       </nav>
     </header>
   );

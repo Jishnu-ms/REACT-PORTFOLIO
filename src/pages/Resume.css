@@ -1,0 +1,70 @@
+.res {
+  font-family: 'Arial', sans-serif;
+  color: #fff;
+  padding: 20px;
+
+  text-align: center;
+  height: 65vh;
+  box-sizing: border-box;
+  align-items: center;
+}
+
+/* Resume tile */
+.resume-tile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 200px;
+    background-color: #1e1e1e;
+    margin: 20px auto;
+    width: 300px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+    padding: 20px;
+}
+
+.resume-tile:hover {
+  background-color: #2c2c2c;
+}
+
+/* Modal overlay */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+ 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+/* Modal content */
+.modal-content {
+  background-color: #222;
+  padding: 20px;
+  border-radius: 10px;
+  width: 80%;
+  max-width: 800px;
+  position: relative;
+}
+
+/* Close button */
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  background: #ff5c5c;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+

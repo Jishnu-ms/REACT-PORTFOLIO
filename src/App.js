@@ -5,6 +5,7 @@ import Portfolio from "./pages/Portfolio";
 import Skills from "./pages/Skills";
 import Qualifications from "./pages/Qualifications";
 import Contact from "./pages/Contact";
+import Resume from "./pages/Resume";
 
 const App = () => {
   return (
@@ -15,6 +16,8 @@ const App = () => {
         <Route path="/skills" element={<Skills />} />
         <Route path="/qualifications" element={<Qualifications />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/resume" element={<Resume />} />
+       
       </Routes>
     </Router>
   );

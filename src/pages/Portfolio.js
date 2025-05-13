@@ -31,7 +31,7 @@ const Portfolio = () => {
                 <div className="col-md-4 col-12" data-aos="fade-up" data-aos-delay="100">
                   <div
                     className="tile text-center"
-                    onClick={() => openPopup("cv/index2.html")}
+                    onClick={() => openPopup("https://react-portfolio-vert-delta.vercel.app")}
                   >
                     <h1 className="tt">PORTFOLIO</h1>
                     <br></br>
@@ -93,7 +93,7 @@ const Portfolio = () => {
                 <div className="col-md-4 col-12" data-aos="fade-up" data-aos-delay="200">
                   <div
                     className="tile text-center"
-                    onClick={() => openPopup("Logi/facebook.html")}
+                    onClick={() => openPopup("https://jishnu-ms.github.io/netflixclone-using-react/")}
                   >
                     <h1 className="tt">NETFLIX CLONE</h1>
                     <br></br>
@@ -108,7 +108,7 @@ const Portfolio = () => {
                 <div className="col-md-4 col-12" data-aos="fade-up" data-aos-delay="200">
                   <div
                     className="tile text-center"
-                    onClick={() => openPopup("Logi/facebook.html")}
+                    onClick={() => openPopup("https://jishnu-ms.github.io/netflixclone-using-react/")}
                   >
                     <h1 className="tt">TODO APP</h1>
                     <br></br>
