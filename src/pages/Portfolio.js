@@ -63,7 +63,7 @@ const Portfolio = () => {
                 <div className="col-md-4 col-12" data-aos="fade-up" data-aos-delay="300">
                   <div
                     className="tile text-center"
-                    onClick={() => openPopup("Calculator/calc.html")}
+                    onClick={() => openPopup("https://jishnu-ms.github.io/Calculator/")}
                   >
                     <h1 className="tt">CALCULATOR</h1>
                     <br></br>
