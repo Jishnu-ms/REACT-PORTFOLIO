@@ -108,7 +108,7 @@ const Portfolio = () => {
                 <div className="col-md-4 col-12" data-aos="fade-up" data-aos-delay="200">
                   <div
                     className="tile text-center"
-                    onClick={() => openPopup("https://jishnu-ms.github.io/netflixclone-using-react/")}
+                    onClick={() => openPopup("https://to-do-app-react-sandy-two.vercel.app/")}
                   >
                     <h1 className="tt">TODO APP</h1>
                     <br></br>
